@@ -1,5 +1,5 @@
 @import url('https://www.dl.dropboxusercontent.com/s/xh21l0bu4jg8fl7/Fonts.css');
-body{margin-left:30%;background-color:#000;color:#fff;}
+body{margin-left:30%;background-color:#000;color:#fff;max-width:1000px;width:100%}
 #page{font-family: 'Courgette'!important;font-size: 17px;}
 
 #Buttons h2{color:#5de;margin-top:2rem;border-bottom:1px solid #333;width:200px;margin-bottom:10px;}
