@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette');
-body{margin-left:30%;background-color:#000;color:#fff;max-width:1000px;width:100%}
-#page{font-family: 'Courgette'!important;font-size: 17px;}
+@import url('https://www.dl.dropboxusercontent.com/s/xh21l0bu4jg8fl7/Fonts.css');
+body{background-color:#000;color:#fff;max-width:1000px;width:100%}
+#page{margin-left:40%;font-family: 'Courgette'!important;font-size: 17px;}
 
-#Buttons h2{color:#5de;margin-top:2rem;border-bottom:1px solid #333;width:200px;margin-bottom:10px;}
-#Buttons #buttons-mal .link{text-decoration:none;border:1px solid #333;width:100px;background-color:transparent;box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);}
+#Buttons h2{color:#5de;margin-top:2rem;border-bottom:1px solid;animation:rainbow 5s infinite;width:200px;margin-bottom:10px;}
+#Buttons #buttons-mal .link{text-decoration:none;border:1px solid;animation:blacknwhite 5s infinite;width:100px;background-color:transparent;box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);}
 #Buttons #buttons-mal .link .link-open{background:none;border:1px solid transparent;color:#d20;width:100%;height:100%;padding:1rem;}
-#Buttons #buttons-mal .preview{text-decoration:none;border:1px solid #333;width:100px;background-color:transparent;margin-top:5px;box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);}
+#Buttons #buttons-mal .preview{text-decoration:none;border:1px solid;animation:blacknwhite 5s infinite;width:100px;background-color:transparent;margin-top:5px;box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);}
 #Buttons #buttons-mal .preview .preview-open{background:none;border:1px solid transparent;color:#d20;width:100%;height:100%;padding:1rem;}
 
 #Buttons #buttons-mal .link:hover,#Buttons #buttons-mal .link .link-open:hover,#Buttons #buttons-mal .preview:hover,#Buttons #buttons-mal .preview .preview-open:hover{border:1px solid #000;cursor:pointer;}
 
 #Buttons #dub h2{color:#5768ff;}
-#Buttons #dub .dubplus{border-bottom:2px solid #333;border-right:2px solid #333;padding-right:50px;box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);}
-#Buttons #dub .tampermonkey{border-bottom:2px solid #333;border-right:2px solid #333;padding-right:0px;box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);}
-#Buttons #dub .preview{border-bottom:2px solid #333;border-right:2px solid #333;padding-right:20px;box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);}
-#Buttons #dub .name{border-bottom:2px solid #333;border-right:2px solid #333;padding-right:100px;box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);}
+#Buttons #dub .dubplus{border-bottom:2px solid;animation:blacknwhite 5s infinite;border-right:2px solid;animation:blacknwhite 5s infinite;padding-right:50px;box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);}
+#Buttons #dub .tampermonkey{border-bottom:2px solid;animation:blacknwhite 5s infinite;border-right:2px solid;animation:blacknwhite 5s infinite;padding-right:0px;box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);}
+#Buttons #dub .preview{border-bottom:2px solid;animation:blacknwhite 5s infinite;border-right:2px solid;animation:blacknwhite 5s infinite;padding-right:20px;box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);}
+#Buttons #dub .name{border-bottom:2px solid;animation:blacknwhite 5s infinite;border-right:2px solid;animation:blacknwhite 5s infinite;padding-right:100px;box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);}
 
 #Buttons #dub .dubplus-1{background-color:transparent;color:#5de514;text-decoration:none;padding-right:0.5rem;}
 #Buttons #dub .tampermonkey-1{background-color:transparent;color:#5de514;text-decoration:none;padding-right:0.5rem;}
@@ -28,4 +28,39 @@ body{margin-left:30%;background-color:#000;color:#fff;max-width:1000px;width:100
 #Buttons #dub .tampermonkey-3{background-color:transparent;color:mediumpurple;text-decoration:none;padding-right:0.5rem;}
 #Buttons #dub .preview-3{background-color:transparent;color:mediumpurple;text-decoration:none;padding-right:0.5rem;}
 
+#frame .video{height:200px;width:500px;}
+#frame{margin-left:40%;margin-top:50px;}
+
 p{font-size:18px;}
+
+a:active, button:active{background-color:#fff!important;border-radius:auto;}
+
+@-webkit-keyframes rainbow {
+0% {border-color: #ff0000;}
+10% {border-color: #ff8000;}
+20% {border-color: #ffff00;}
+30% {border-color: #80ff00;}
+40% {border-color: #00ff00;}
+50% {border-color: #00ff80;}
+60% {border-color: #00ffff;}
+70% {border-color: #0080ff;}
+80% {border-color: #0000ff;}
+90% {border-color: #8000ff;}
+100% {border-color: #ff0080;}
+}
+
+@-webkit-keyframes blacknwhite {
+0% {border-color: #000;}
+8.33% {border-color: #222;}
+16.66% {border-color: #444;}
+24.99% {border-color: #666;}
+33.22% {border-color: #888;}
+41.55% {border-color: #999;}
+49.88% {border-color: #fff;}
+58.11% {border-color: #999;}
+66.44% {border-color: #666;}
+74.77% {border-color: #444;}
+83% {border-color: #222;}
+91.33% {border-color: #000;}
+100% {border-color: transparent;}
+}
