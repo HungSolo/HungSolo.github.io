@@ -35,7 +35,7 @@ body{background-color:#000;color:#fff;max-width:1000px;width:100%}
 
 p{font-size:18px;}
 
-a:active, button:active{background-color:#fff!important;border-radius:auto;}
+/*a:active, button:active{background-color:#fff!important;border-radius:auto;}*/
 
 @-webkit-keyframes rainbow {
 0% {border-color: #ff0000;}
