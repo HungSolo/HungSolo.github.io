@@ -28,8 +28,10 @@ body{background-color:#000;color:#fff;max-width:1000px;width:100%}
 #Buttons #dub .tampermonkey-3{background-color:transparent;color:mediumpurple;text-decoration:none;padding-right:0.5rem;}
 #Buttons #dub .preview-3{background-color:transparent;color:mediumpurple;text-decoration:none;padding-right:0.5rem;}
 
-#frame .video{height:200px;width:500px;}
-#frame{margin-left:40%;margin-top:50px;}
+#page #github button {margin-top: 100px;border:.1px solid yellow;background-color: transparent;padding: 15px;}
+#page #github a {color: #fff;text-decoration:none;}
+#page #github a:hover {color:#4fccad;}
+#page #github .button:active {color:#5de514; background: red;}
 
 p{font-size:18px;}
 
